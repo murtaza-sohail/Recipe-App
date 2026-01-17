@@ -1,0 +1,40 @@
+/* Galaxy S20 / Small Mobile Fixes */
+@media (max-width: 380px) {
+    .container {
+        padding: 0 10px !important;
+    }
+    
+    h1 {
+        font-size: 2.5rem !important;
+        line-height: 1.1 !important;
+    }
+    
+    .card {
+        margin-bottom: 15px;
+    }
+    
+    .grid {
+        grid-template-columns: 1fr !important;
+    }
+    
+    .nav-search-form {
+        display: none !important;
+    }
+    
+    .mobile-show {
+        display: block !important;
+    }
+    
+    /* Ensure buttons don't overflow */
+    .btn {
+        padding: 10px 15px !important;
+        font-size: 0.8rem !important;
+        width: 100%;
+        justify-content: center;
+    }
+    
+    /* Fix header spacing */
+    header {
+        padding-top: 80px !important;
+    }
+}
