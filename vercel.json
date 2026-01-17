@@ -1,18 +1,14 @@
 {
     "version": 2,
+    "name": "recipe-app-production",
     "rewrites": [
         {
             "source": "/api/(.*)",
-            "destination": "/server/server.js"
+            "destination": "/api/index.js"
         },
         {
             "source": "/(.*)",
             "destination": "/client/index.html"
         }
-    ],
-    "functions": {
-        "server/server.js": {
-            "includeFiles": "server/data/**"
-        }
-    }
+    ]
 }
